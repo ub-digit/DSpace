@@ -10,14 +10,11 @@
 
     <Appenders>
         <!-- A1 is for most DSpace activity -->
-        <Appender name='A1'
-                  type='Console'
-
-        >
-            <Layout type='PatternLayout'
-                    pattern='%d %-5p %equals{%X{correlationID}}{}{unknown} %equals{%X{requestID}}{}{unknown} %c @ %m%n'/>
+        <Appender name='A1' type='Console'>
+            <Layout type="JsonTemplateLayout" eventTemplateUri="classpath:EcsLayout.json">
+                <EventTemplateAdditionalField key="service.name" value="dspace-rest" />
+            </Layout>
         </Appender>
-
         <!-- A2 is for the checksum checker -->
         <Appender name='A2'
                   type='Console'>
