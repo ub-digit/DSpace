@@ -17,10 +17,16 @@
         </Appender>
         <!-- A2 is for the checksum checker -->
         <Appender name='A2'
-                  type='Console'>
+                  filePattern="${log.dir}/checker.log-%d{yyyy-MM-dd}"
+                  type='RollingFile'
+                  fileName='${log.dir}/checker.log'>
             <Layout type='PatternLayout'
                     pattern='%m%n'/>
+            <policies>
+                <policy type='TimeBasedTriggeringPolicy'>yyyy-MM-dd</policy>
+            </policies>
         </Appender>
+
     </Appenders>
 
     <Loggers>
