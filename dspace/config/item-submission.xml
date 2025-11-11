@@ -19,58 +19,277 @@
     <submission-map>
         <!-- Default submission process -->
         <name-map collection-handle="default" submission-name="traditional"/>
-
-        <!-- Sample Entities Collection configuration based on the demo Entities dataset available at:
-             https://github.com/DSpace-Labs/AIP-Files/releases/tag/demo-entities-data
-             This sets up the following Entity-based Collections in that dataset:
-                "Publication" Collections = "Publications" -> "Articles", "Books", "Publications 2", & "Theses"
-                "OrgUnit" Collection = "Related Objects" -> "OrgUnits"
-                "Person" Collections = "Related Objects" -> "People" & "People 2"
-                "Project" Collections = "Related Objects" -> "Projects" & "Projects 2"
-                "Journal" Collection = "Compound Journals" -> "Journals"
-                "Journal Volume" Collection = "Compound Journals" -> "Journal Volumes"
-                "Journal Issue" Collection = "Compound Journals" ->  "Journal Issues"
-             If you are using that demo dataset, you can simply uncomment the below configuration to enable Entity
-             submission into all of the above Collections.
-        -->
-        <!--
-        <name-map collection-handle="123456789/3" submission-name="Publication"/>
-        <name-map collection-handle="123456789/4" submission-name="Publication"/>
-        <name-map collection-handle="123456789/281" submission-name="Publication"/>
-        <name-map collection-handle="123456789/5" submission-name="Publication"/>
-        <name-map collection-handle="123456789/8" submission-name="OrgUnit"/>
-        <name-map collection-handle="123456789/6" submission-name="Person"/>
-        <name-map collection-handle="123456789/279" submission-name="Person"/>
-        <name-map collection-handle="123456789/7" submission-name="Project"/>
-        <name-map collection-handle="123456789/280" submission-name="Project"/>
-        <name-map collection-handle="123456789/28" submission-name="Journal"/>
-        <name-map collection-handle="123456789/29" submission-name="JournalVolume"/>
-        <name-map collection-handle="123456789/30" submission-name="JournalIssue"/>
-        -->
-        <!-- These configurations enable default submission forms per Entity type 
-            
-            The  collection-entity-type will be the entity-type attribute associated with a collection,
-            typically the entity name that is associated with a collection if any created or loaded 
-            (that is usually specified in relationship-types.xml).
-            - - - - - -
-            PLEASE NOTICE THAT YOU WILL HAVE TO RESTART DSPACE
-            - - - - - -
-        -->
-        <name-map collection-entity-type="Publication" submission-name="Publication"/>
-        <name-map collection-entity-type="Person" submission-name="Person"/>
-        <name-map collection-entity-type="Project" submission-name="Project"/>
-        <name-map collection-entity-type="OrgUnit" submission-name="OrgUnit"/>
-        <name-map collection-entity-type="Journal" submission-name="Journal"/>
-        <name-map collection-entity-type="JournalVolume" submission-name="JournalVolume"/>
-        <name-map collection-entity-type="JournalIssue" submission-name="JournalIssue"/>
-
-        <!-- Example of configuration using a community handle to map an Item Submission Process.
-
-            This configuration maps the submission process to the community's descendant
-            collections that do not have a mapping defined by collection-handle or entity-type
-
-        <name-map community-handle="123456789/1234" submission-name="xxxx"/>
-        -->
+        <name-map collection-handle="2077/31" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/41" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/37" submission-name="dissertationSocialSci"/>
+        <name-map collection-handle="2077/64" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/130" submission-name="dissertationSocialSci"/>
+        <name-map collection-handle="2077/305" submission-name="dissertationSA"/>
+        <name-map collection-handle="2077/310" submission-name="dissertationSA"/>
+        <name-map collection-handle="2077/407" submission-name="dissertationSA"/>
+        <name-map collection-handle="2077/541" submission-name="dissertationSA"/>
+        <name-map collection-handle="2077/542" submission-name="dissertationSA"/>
+        <name-map collection-handle="2077/543" submission-name="dissertationSA"/>
+        <name-map collection-handle="2077/544" submission-name="dissertationSA"/>
+        <name-map collection-handle="2077/545" submission-name="dissertationSA"/>
+        <name-map collection-handle="2077/780" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/870" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/871" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/872" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/787" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/788" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/796" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/797" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/800" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/801" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/803" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/804" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/806" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/807" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/811" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/812" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/831" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/896" submission-name="conferencepapers"/>
+        <name-map collection-handle="2077/897" submission-name="articles"/>
+        <name-map collection-handle="2077/832" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/894" submission-name="articles"/>
+        <name-map collection-handle="2077/2536" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/3138" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/3158" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/3281" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/3282" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/3283" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/3315" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/3316" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/3754" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/3756" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/4570" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/4718" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/4723" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/4748" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/4749" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/4750" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/7200" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/7201" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/7202" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/7454" submission-name="dissertationSocialSci"/>
+        <name-map collection-handle="2077/8441" submission-name="dissertationEdu"/>
+        <name-map collection-handle="2077/8446" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/8447" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/8490" submission-name="articles"/>
+        <name-map collection-handle="2077/8527" submission-name="dissertationSA"/>
+        <name-map collection-handle="2077/9528" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/9692" submission-name="dissertationSocialSci"/>
+        <name-map collection-handle="2077/9823" submission-name="dissertationSocialSci"/>
+        <name-map collection-handle="2077/9824" submission-name="dissertationSocialSci"/>
+        <name-map collection-handle="2077/9825" submission-name="dissertationSocialSci"/>
+        <name-map collection-handle="2077/9909" submission-name="dissertationIT"/>
+        <name-map collection-handle="2077/9915" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/9916" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/9917" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/10113" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/10114" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/10115" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/10133" submission-name="articles"/>
+        <name-map collection-handle="2077/10508" submission-name="dissertationSocialSci"/>
+        <name-map collection-handle="2077/10549" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/10557" submission-name="dissertationGeneral"/>
+        <name-map collection-handle="2077/17601" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/17603" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/17605" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/17607" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/17609" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/17671" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/17673" submission-name="dissertationEdu"/>
+        <name-map collection-handle="2077/17675" submission-name="dissertationEdu"/>
+        <name-map collection-handle="2077/17919" submission-name="articles"/>
+        <name-map collection-handle="2077/17920" submission-name="articles"/>
+        <name-map collection-handle="2077/18219" submission-name="dissertationIT"/>
+        <name-map collection-handle="2077/18310" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/18312" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/18313" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/18656" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/18657" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/18725" submission-name="conferencepapers"/>
+        <name-map collection-handle="2077/18984" submission-name="dissertationFineArts"/>
+        <name-map collection-handle="2077/18986" submission-name="dissertationFineArts"/>
+        <name-map collection-handle="2077/18987" submission-name="dissertationFineArts"/>
+        <name-map collection-handle="2077/18988" submission-name="dissertationFineArts"/>
+        <name-map collection-handle="2077/18989" submission-name="dissertationFineArts"/>
+        <name-map collection-handle="2077/18990" submission-name="dissertationFineArts"/>
+        <name-map collection-handle="2077/19453" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/19454" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/19455" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/19516" submission-name="dissertationArts"/>
+        <name-map collection-handle="2077/19517" submission-name="dissertationArts"/>
+        <name-map collection-handle="2077/19519" submission-name="dissertationArts"/>
+        <name-map collection-handle="2077/19521" submission-name="dissertationArts"/>
+        <name-map collection-handle="2077/19523" submission-name="dissertationArts"/>
+        <name-map collection-handle="2077/19525" submission-name="dissertationArts"/>
+        <name-map collection-handle="2077/19771" submission-name="conferencepapers"/>
+        <name-map collection-handle="2077/20803" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/20804" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/21111" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/21114" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/21115" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/21397" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/21433" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/21434" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/21436" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/21722" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/21723" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/21724" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/22010" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/22011" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/22012" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/23257" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/22411" submission-name="dissertationEdu"/>
+        <name-map collection-handle="2077/22408" submission-name="dissertationEdu"/>
+        <name-map collection-handle="2077/22409" submission-name="dissertationEdu"/>
+        <name-map collection-handle="2077/22410" submission-name="dissertationEdu"/>
+        <name-map collection-handle="2077/23598" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/23910" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/23914" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/23908" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/813" submission-name="dissertationEconomy"/>
+        <name-map collection-handle="2077/816" submission-name="dissertationEconomy"/>
+        <name-map collection-handle="2077/819" submission-name="dissertationEconomy"/>
+        <name-map collection-handle="2077/822" submission-name="dissertationEconomy"/>
+        <name-map collection-handle="2077/825" submission-name="dissertationEconomy"/>
+        <name-map collection-handle="2077/833" submission-name="dissertationEconomy"/>
+        <name-map collection-handle="2077/24179" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24181" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24180" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/22375" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/22376" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/22377" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24772" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24916" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24917" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24919" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24920" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24921" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24922" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24923" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24924" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24928" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24929" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24930" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24931" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24946" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24949" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24950" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/24953" submission-name="dissertationEconomy"/>
+        <name-map collection-handle="2077/24991" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/25318" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/25558" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/25629" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/23306" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/26657" submission-name="licentiate"/>
+        <name-map collection-handle="2077/26755" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/26756" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/27321" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28038" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28039" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28040" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28240" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28241" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28085" submission-name="artwork"/>
+        <name-map collection-handle="2077/28086" submission-name="artwork"/>
+        <name-map collection-handle="2077/28099" submission-name="artwork"/>
+        <name-map collection-handle="2077/28100" submission-name="artwork"/>
+        <name-map collection-handle="2077/28101" submission-name="artwork"/>
+        <name-map collection-handle="2077/28102" submission-name="artwork"/>
+        <name-map collection-handle="2077/28103" submission-name="artwork"/>
+        <name-map collection-handle="2077/28104" submission-name="artwork"/>
+        <name-map collection-handle="2077/28369" submission-name="dissertationSocialSci"/>
+        <name-map collection-handle="2077/28575" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28887" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28938" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28939" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28940" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28941" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28942" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28943" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28944" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28945" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/28946" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/29053" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/29054" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/29338" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/29436" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/29678" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/29679" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/29680" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/30127" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/30359" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/30628" submission-name="dissertationFineArts"/>
+        <name-map collection-handle="2077/30629" submission-name="dissertationFineArts"/>
+        <name-map collection-handle="2077/30631" submission-name="dissertationFineArts"/>
+        <name-map collection-handle="2077/30620" submission-name="artwork"/>
+        <name-map collection-handle="2077/30621" submission-name="artwork"/>
+        <name-map collection-handle="2077/30622" submission-name="artwork"/>
+        <name-map collection-handle="2077/30649" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/31649" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/31650" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/31775" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/31772" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/31776" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/32133" submission-name="dissertationEconomy"/>
+        <name-map collection-handle="2077/32333" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/32408" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/34574" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/35283" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/35282" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/35284" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/35825" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/36650" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/36652" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/36653" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/36654" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/38447" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/38533" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/38532" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/40511" submission-name="dissertationScience"/>
+        <name-map collection-handle="2077/51536" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/52228" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/52332" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/52333" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/52610" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/45134" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/45640" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/45641" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/45642" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/54599" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/31653" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/55583" submission-name="artwork"/>
+        <name-map collection-handle="2077/55584" submission-name="artwork"/>
+        <name-map collection-handle="2077/55585" submission-name="artwork"/>
+        <name-map collection-handle="2077/59929" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/59930" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/59931" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/60403" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/61848" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/61861" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/62719" submission-name="artwork"/>
+        <name-map collection-handle="2077/62720" submission-name="dissertationFineArts"/>
+        <name-map collection-handle="2077/66471" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/67358" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/68688" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/69814" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/69816" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/69815" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/69817" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/70079" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/71141" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/71143" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/71144" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/74396" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/74436" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/71130" submission-name="dissertationArts"/>
+        <name-map collection-handle="2077/81770" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/81771" submission-name="studentpapers"/>
+        <name-map collection-handle="2077/89643" submission-name="studentpapers"/>
 
     </submission-map>
 
@@ -106,50 +325,173 @@
             <type>collection</type>
         </step-definition>
 
-        <!-- The following set of DescribeStep <step-definition>s all point to forms (of the same name) which are
-             defined in submission-forms.xml -->
-        <step-definition id="traditionalpageone" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
+        <step-definition mandatory="true" id="traditionalpage1">
+            <heading>submit.progressbar.describe.step1</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
-        <step-definition id="traditionalpagetwo" mandatory="true">
-            <heading>submit.progressbar.describe.steptwo</heading>
+        <step-definition mandatory="true" id="traditionalpage2">
+            <heading>submit.progressbar.describe.step2</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
-        <step-definition id="publicationStep" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
+        <step-definition mandatory="true" id="licentiatepage1">
+            <heading>submit.progressbar.describe.step1</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
-        <step-definition id="personStep" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
+        <step-definition mandatory="true" id="licentiatepage2">
+            <heading>submit.progressbar.describe.step2</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
-        <step-definition id="projectStep" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
+        <step-definition mandatory="true" id="dissertationGeneralpage1">
+            <heading>submit.progressbar.describe.step1</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
-        <step-definition id="orgUnitStep" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
+        <step-definition mandatory="true" id="dissertationGeneralpage2">
+            <heading>submit.progressbar.describe.step2</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
-        <step-definition id="journalStep" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
+        <step-definition mandatory="true" id="dissertationEdupage1">
+            <heading>submit.progressbar.describe.step1</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
-        <step-definition id="journalVolumeStep" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
+        <step-definition mandatory="true" id="dissertationEdupage2">
+            <heading>submit.progressbar.describe.step2</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
-        <step-definition id="journalIssueStep" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
+        <step-definition mandatory="true" id="dissertationArtspage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationArtspage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationFineArtspage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationFineArtspage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationSApage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationSApage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationEconomypage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationEconomypage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationSocialScipage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationSocialScipage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationSciencepage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationSciencepage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationITpage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="dissertationITpage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="studentpaperspage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="studentpaperspage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="articlespage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="articlespage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="articlespage3">
+            <heading>submit.progressbar.describe.step3</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="conferencepaperspage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="conferencepaperspage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="conferencepaperspage3">
+            <heading>submit.progressbar.describe.step3</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="embargopage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="artworkpage1">
+            <heading>submit.progressbar.describe.step1</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="artworkpage2">
+            <heading>submit.progressbar.describe.step2</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="artworkpage3">
+            <heading>submit.progressbar.describe.step3</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
@@ -164,94 +506,6 @@
             <processing-class>org.dspace.app.rest.submit.step.LicenseStep</processing-class>
             <type>license</type>
             <scope visibilityOutside="read-only">submission</scope>
-        </step-definition>
-
-        <!-- This optional step may allow the user to select a Creative Commons license -->
-        <step-definition id="cclicense" mandatory="false">
-            <heading>submit.progressbar.CClicense</heading>
-            <processing-class>org.dspace.app.rest.submit.step.CCLicenseStep</processing-class>
-	        <type>cclicense</type>
-        </step-definition>
-
-		<!-- This optional step may allow the user to select access conditions on the item -->
-        <step-definition id="itemAccessConditions">
-            <heading>submit.progressbar.accessCondition</heading>
-            <processing-class>org.dspace.app.rest.submit.step.AccessConditionStep</processing-class>
-            <type>accessCondition</type>
-        </step-definition>
-
-        <!-- This optional step may enrich the current submission using information extracted
-             from uploaded files or metadata.  -->
-        <!-- Please note that this step will be triggered only when a request is performed,
-             e.g. when a file is uploaded or the form is saved. The Angular UI also supports an
-             autosave feature based on a timer, or the input of specific metadata such as identifiers,
-             see the 'submission.autosave' settings in the 'environment.common.ts'.
-             See also 'config/spring/api/step-processing-listener.xml' for further server side configuration
-             -->
-        <step-definition id="extractionstep">
-            <heading>submit.progressbar.ExtractMetadataStep</heading>
-            <processing-class>org.dspace.app.rest.submit.step.ExtractMetadataStep</processing-class>
-            <type>extract</type>
-        </step-definition>
-
-        <!-- Openaire submission steps/forms -->
-        <step-definition id="openaireProjectForm" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
-            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
-            <type>submission-form</type>
-        </step-definition>
-        <step-definition id="openairePersonForm" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
-            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
-            <type>submission-form</type>
-        </step-definition>
-        <step-definition id="openaireOrganizationForm" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
-            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
-            <type>submission-form</type>
-        </step-definition>
-        <step-definition id="openairePublicationPageoneForm" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
-            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
-            <type>submission-form</type>
-        </step-definition>
-        <step-definition id="openairePublicationPagetwoForm" mandatory="true">
-            <heading>submit.progressbar.describe.stepone</heading>
-            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
-            <type>submission-form</type>
-        </step-definition>
-
-        <!-- This is the Sample/Fake Step which is used for testing only -->
-        <step-definition id="sample">
-            <heading>Sample</heading>
-            <processing-class>org.dspace.submit.step.SampleStep</processing-class>
-            <type>sample</type>
-        </step-definition>
-
-        <step-definition id="sherpaPolicies" mandatory="true">
-            <heading>submit.progressbar.sherpapolicy</heading>
-            <processing-class>org.dspace.app.rest.submit.step.SherpaPolicyStep</processing-class>
-            <type>sherpaPolicy</type>
-        </step-definition>
-
-        <!-- New step for show / mint identifiers -->
-        <step-definition id="identifiers">
-            <heading>submit.progressbar.identifiers</heading>
-            <processing-class>org.dspace.app.rest.submit.step.ShowIdentifiersStep</processing-class>
-            <type>identifiers</type>
-        </step-definition>
-
-        <step-definition id="coarnotify">
-            <heading>submit.progressbar.coarnotify</heading>
-            <processing-class>org.dspace.app.rest.submit.step.NotifyStep</processing-class>
-            <type>coarnotify</type>
-        </step-definition>
-
-        <!-- Detect duplicates step -->
-        <step-definition id="duplicates">
-            <heading>submit.progressbar.duplicates</heading>
-            <processing-class>org.dspace.app.rest.submit.step.DuplicateDetectionStep</processing-class>
-            <type>duplicates</type>
         </step-definition>
 
     </step-definitions>
@@ -271,160 +525,121 @@
     <!-- -->
     <!-- -->
     <submission-definitions>
-
-        <!--This "traditional" process defines the DEFAULT item submission process -->
         <submission-process name="traditional">
-            <!--Uncommment to display the SAMPLE step as your first step -->
-            <!--<step id="sample"/> -->
-
             <step id="collection"/>
-            <!-- To include the 'Show Identifiers' step, uncomment the line below. Make sure
-                 that identifiers.cfg and identifier-service.xml are properly configured. -->
-            <!--<step id="identifiers"/>-->
-            <!--Step will be to Describe the item. -->
-            <step id="traditionalpageone"/>
-            <step id="traditionalpagetwo"/>
-
-            <!-- Uncomment this step to allow the user to embargo or access restrict the entire item -->
-            <!-- <step id="itemAccessConditions"/> -->
-
-            <!-- Uncomment this step to show when appropriate publisher policies retrieved from SHERPA/RoMEO -->
-            <!-- <step id="sherpaPolicies"/> -->
-
-            <!-- To include the 'Duplicate Detection' step, uncomment the line below. Make sure
-                 that duplicate-detection.cfg is properly configured and items have been reindexed since
-                 enabling the feature -->
-            <!-- <step id="duplicates"/> -->
-
-            <!--Step will be COAR Notify services to the item -->
-            <!-- <step id="coarnotify"/> -->
-
-            <!--Step will be to Upload the item -->
-            <step id="upload"/>
-
-            <!-- <step id="extractionstep"/> -->
-
-            <!-- Uncomment this step to allow the user to select a Creative Commons License -->
-            <!-- <step id="cclicense"/> -->
-
-            <!--Step will be to Sign off on the required DSpace License agreement -->
-            <step id="license"/>
-        </submission-process>
-
-        <!--
-        Submission Process for 'Publication' Entities.
-        These are not to be confused with default Items, as Publications may be linked with other Entities
-        (e.g. Person, JournalIssue, etc).
-        To enable: create a collection for Publications and add it to the <submission-map> tag linking to this process
-         -->
-        <submission-process name="Publication">
-            <step id="collection"/>
-            <!-- Publications use a custom first step, but share page 2 with "traditional" Item form -->
-            <step id="publicationStep"/>
-            <step id="traditionalpagetwo"/>
-            <!--Step for COAR Notify services requests -->
-            <!-- <step id="coarnotify"/> -->
+            <step id="traditionalpage1"/>
+            <step id="traditionalpage2"/>
             <step id="upload"/>
             <step id="license"/>
         </submission-process>
-
-        <!--
-        Submission Process for 'Person' Entities
-        To enable: create a collection for Persons and add it to the <submission-map> tag linking to this process
-         -->
-        <submission-process name="Person">
+        <submission-process name="licentiate">
             <step id="collection"/>
-            <step id="personStep"/>
+            <step id="licentiatepage1"/>
+            <step id="licentiatepage2"/>
             <step id="upload"/>
             <step id="license"/>
         </submission-process>
-
-        <!--
-        Submission Process for 'Pproject' Entities
-        To enable: create a collection for Projects and add it to the <submission-map> tag linking to this process
-         -->
-        <submission-process name="Project">
+        <submission-process name="dissertationGeneral">
             <step id="collection"/>
-            <step id="projectStep"/>
+            <step id="dissertationGeneralpage1"/>
+            <step id="dissertationGeneralpage2"/>
             <step id="upload"/>
             <step id="license"/>
         </submission-process>
-
-        <!--
-        Submission Process for 'OrgUnit' Entities
-        To enable: create a collection for OrgUnits and add it to the <submission-map> tag linking to this process
-         -->
-        <submission-process name="OrgUnit">
+        <submission-process name="dissertationEdu">
             <step id="collection"/>
-            <step id="orgUnitStep"/>
+            <step id="dissertationEdupage1"/>
+            <step id="dissertationEdupage2"/>
             <step id="upload"/>
             <step id="license"/>
         </submission-process>
-
-        <!--
-        Submission Process for 'Journal' Entities
-        To enable: create a collection for Journals and add it to the <submission-map> tag linking to this process
-         -->
-        <submission-process name="Journal">
+        <submission-process name="dissertationArts">
             <step id="collection"/>
-            <step id="journalStep"/>
+            <step id="dissertationArtspage1"/>
+            <step id="dissertationArtspage2"/>
             <step id="upload"/>
             <step id="license"/>
         </submission-process>
-
-        <!--
-        Submission Process for 'JournalVolume' Entities
-        To enable: create a collection for JournalVolumes and add it to the <submission-map> tag linking to this process
-         -->
-        <submission-process name="JournalVolume">
+        <submission-process name="dissertationFineArts">
             <step id="collection"/>
-            <step id="journalVolumeStep"/>
+            <step id="dissertationFineArtspage1"/>
+            <step id="dissertationFineArtspage2"/>
             <step id="upload"/>
             <step id="license"/>
         </submission-process>
-
-        <!--
-        Submission Process for 'JournalIssues' Entities
-        To enable: create a collection for JournalIssues and add it to the <submission-map> tag linking to this process
-         -->
-        <submission-process name="JournalIssue">
+        <submission-process name="dissertationSA">
             <step id="collection"/>
-            <step id="journalIssueStep"/>
+            <step id="dissertationSApage1"/>
+            <step id="dissertationSApage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="dissertationEconomy">
+            <step id="collection"/>
+            <step id="dissertationEconomypage1"/>
+            <step id="dissertationEconomypage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="dissertationSocialSci">
+            <step id="collection"/>
+            <step id="dissertationSocialScipage1"/>
+            <step id="dissertationSocialScipage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="dissertationScience">
+            <step id="collection"/>
+            <step id="dissertationSciencepage1"/>
+            <step id="dissertationSciencepage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="dissertationIT">
+            <step id="collection"/>
+            <step id="dissertationITpage1"/>
+            <step id="dissertationITpage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="studentpapers">
+            <step id="collection"/>
+            <step id="studentpaperspage1"/>
+            <step id="studentpaperspage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="articles">
+            <step id="collection"/>
+            <step id="articlespage1"/>
+            <step id="articlespage2"/>
+            <step id="articlespage3"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="conferencepapers">
+            <step id="collection"/>
+            <step id="conferencepaperspage1"/>
+            <step id="conferencepaperspage2"/>
+            <step id="conferencepaperspage3"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="embargo">
+            <step id="collection"/>
+            <step id="embargopage1"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="artwork">
+            <step id="collection"/>
+            <step id="artworkpage1"/>
+            <step id="artworkpage2"/>
+            <step id="artworkpage3"/>
             <step id="upload"/>
             <step id="license"/>
         </submission-process>
 
-        <!-- Openaire submission processes -->
-        <submission-process name="openairePublicationSubmission">
-            <step id="collection"/>
-
-            <!--Step will be to Describe the item. -->
-            <step id="openairePublicationPageoneForm"/>
-            <step id="openairePublicationPagetwoForm"/>
-
-            <!--Step will be to Upload the item -->
-            <!-- step id="upload-with-embargo"/-->
-            <step id="upload"/>
-
-            <!--Step will be to Sign off on the License -->
-            <step id="license"/>
-
-            <!-- Step allows the user to select a Creative Commons License -->
-            <!-- Required for OpenAIREv4 support -->
-            <step id="cclicense"/>
-        </submission-process>
-        <submission-process name="openairePersonSubmission">
-            <step id="collection"/>
-            <step id="openairePersonForm"/>
-        </submission-process>
-        <submission-process name="openaireProjectSubmission">
-            <step id="collection"/>
-            <step id="openaireProjectForm"/>
-        </submission-process>
-        <submission-process name="openaireOrganizationSubmission">
-            <step id="collection"/>
-            <step id="openaireOrganizationForm"/>
-        </submission-process>
     </submission-definitions>
 
 </item-submission>
