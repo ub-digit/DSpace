@@ -4,18 +4,30 @@
 ## {1}  Name of collection
 ## {2}  handle
 ##
-#set($subject = "${config.get('dspace.name')}: Submission Approved and Archived")
+#set($subject = "${config.get('dspace.name')}: Godkänd registrering och publicering / Submission Approved and Archived")
 
-You submitted: ${params[0]}
+Du registrerade: / You submitted:
+  ${params[0]}
 
-To collection: ${params[1]}
+i samlingen: / to collection:
+  ${params[1]}
 
+Ditt bidrag är nu godkänt och publicerat i ${config.get('dspace.name')} och
+publikationen har fått följande länk: /
 Your submission has been accepted and archived in ${config.get('dspace.name')},
 and it has been assigned the following identifier:
-${params[2]}
+  ${params[2]}
 
+Använd denna länk för att referera till verket. /
 Please use this identifier when citing your submission.
 
 Many thanks!
 
-The ${config.get('dspace.name')} Team
+
+**********************************************************
+Göteborgs universitets publikationer - elektroniskt arkiv
+University of Gothenburg Publications Electronic Archive
+
+https://gupea.ub.gu.se/
+
+gupea@ub.gu.se

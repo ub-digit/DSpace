@@ -6,19 +6,28 @@
 ## {3}  Description of task
 ## {4}  link to 'my DSpace' page
 ##
-#set($subject = "${config.get('dspace.name')}: You have a new task")
+#set($subject = "${config.get('dspace.name')}: Nytt ärende att handlägga / You have a new task")
 
-A new item has been submitted:
+Följande registrering ska handläggas: / This submission must be processed:
 
-Title:        ${params[0]}
-Collection:   ${params[1]}
-Submitted by: ${params[2]}
+Titel: / Title:                 ${params[0]}
+Samling: / Collection:          ${params[1]}
+Registrerad av: / Submitted by: ${params[2]}
 
 ${params[3]}
 
-To claim this task, please visit your "My${config.get('dspace.shortname')}"
-page:  ${params[4]}
+För att handlägga ärendet loggar du in i ${config.get('dspace.name')}: / Log in to ${config.get('dspace.name')} to process the submission:
+  ${params[4]}
 
 Many thanks!
 
 The ${config.get('dspace.name')} Team
+
+
+**********************************************************
+Göteborgs universitets publikationer - elektroniskt arkiv
+University of Gothenburg Publications Electronic Archive
+
+https://gupea.ub.gu.se/
+
+gupea@ub.gu.se

@@ -6,17 +6,31 @@
 ## {3}  Reason for the rejection
 ## {4}  Link to 'My DSpace' page
 ##
-#set($subject = "${config.get('dspace.name')}: Submission Rejected")
+#set($subject = "${config.get('dspace.name')}: Nekad publicering / Submission Rejected")
 
-You submitted: ${params[0]}
+Du har registrerat: / You submitted:
+  ${params[0]}
 
-To collection: ${params[1]}
+i samlingen: / to collection: 
+  ${params[1]}
 
-Your submission has been rejected by ${params[2]}
-with the following explanation:
+Registreringen har nekats av: / Your submission has been rejected by:
+  ${params[2]}
 
-${params[3]}
+med följande förklaring: / with the following explanation:
 
-Your submission has not been deleted. You can access it from your "My${config.get('dspace.shortname')}" page: ${params[4]}
+  ${params[3]}
 
-The ${config.get('dspace.name')} Team
+Your submission has not been deleted. You can access it from your ${config.get('dspace.name')} page: ${params[4]}
+
+För att korrigera registreringen loggar du in i ${config.get('dspace.name')}: / Log in to ${config.get('dspace.name')} to correct the submission:
+  ${params[4]}
+
+
+**********************************************************
+Göteborgs universitets publikationer - elektroniskt arkiv /
+University of Gothenburg Publications Electronic Archive
+
+http://gupea.ub.gu.se/
+
+gupea@ub.gu.se

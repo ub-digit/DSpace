@@ -24,4 +24,11 @@ Referring Page: ${params[3]}
 User Agent: ${params[4]}
 Session: ${params[5]}
 
-The ${config.get('dspace.name')} Team
+
+**********************************************************
+Göteborgs universitets publikationer - elektroniskt arkiv /
+University of Gothenburg Publications Electronic Archive
+
+https://gupea.ub.gu.se/
+
+gupea@ub.gu.se

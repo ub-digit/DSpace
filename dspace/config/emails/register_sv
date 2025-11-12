@@ -4,15 +4,14 @@
 ##
 ## See org.dspace.core.Email for information on the format of this file.
 ##
-#set($subject = "${config.get('dspace.name')}: Skapa konto / Account Registration")
-Klicka på länken för att skapa ett användarkonto i ${config.get('dspace.name')}: /
-To complete registration for a ${config.get('dspace.name')} account, please click the link below:
+#set($subject = "${config.get('dspace.name')}: Skapa konto")
+Klicka på länken för att skapa ett användarkonto i ${config.get('dspace.name')}:
 
   ${params[0]}
 
 
 **********************************************************
-Göteborgs universitets publikationer - elektroniskt arkiv /
+Göteborgs universitets publikationer - elektroniskt arkiv
 University of Gothenburg Publications Electronic Archive
 
 https://gupea.ub.gu.se/
