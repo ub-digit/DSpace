@@ -326,172 +326,172 @@
         </step-definition>
 
         <step-definition mandatory="true" id="traditionalpage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="traditionalpage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="licentiatepage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="licentiatepage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationGeneralpage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationGeneralpage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationEdupage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationEdupage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationArtspage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationArtspage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationFineArtspage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationFineArtspage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationSApage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationSApage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationEconomypage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationEconomypage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationSocialScipage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationSocialScipage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationSciencepage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationSciencepage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationITpage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="dissertationITpage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="studentpaperspage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="studentpaperspage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="articlespage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="articlespage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="articlespage3">
-            <heading>submit.progressbar.describe.step3</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="conferencepaperspage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="conferencepaperspage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="conferencepaperspage3">
-            <heading>submit.progressbar.describe.step3</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="embargopage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="artworkpage1">
-            <heading>submit.progressbar.describe.step1</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="artworkpage2">
-            <heading>submit.progressbar.describe.step2</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
         <step-definition mandatory="true" id="artworkpage3">
-            <heading>submit.progressbar.describe.step3</heading>
+            <heading>submit.progressbar.describe.stepcustom</heading>
             <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
             <type>submission-form</type>
         </step-definition>
