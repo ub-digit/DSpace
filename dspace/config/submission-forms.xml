@@ -28,10 +28,9 @@
                     <dc-element>contributor</dc-element>
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
-                    <label>Författare / Authors</label>
-                    <input-type>name</input-type>
-                    <hint>Ange namn till författare/upphovsman. / Enter the names of the authors of
-                        this item.</hint>
+                    <label>Författare / Author</label>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required />
                 </field>
             </row>
@@ -42,8 +41,8 @@
                     <dc-qualifier>editor</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Redaktör / Editor</label>
-                    <input-type>name</input-type>
-                    <hint>Ange namn till redaktören. / Enter the names of the editors of this item.</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange redaktörens namn (efternamn, förnamn). / Enter the editor's name (Family name, Given names).</hint>
                     <required />
                 </field>
             </row>
@@ -285,8 +284,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Skriv in författarnamn! You must enter the author!</required>
                 </field>
             </row>
@@ -482,8 +481,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Skriv in avhandlingens författare! You must enter the author!</required>
                 </field>
             </row>
@@ -755,8 +754,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Skriv in avhandlingens författare! You must enter the author!</required>
                 </field>
             </row>
@@ -977,8 +976,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Skriv in avhandlingens författare! You must enter the author!</required>
                 </field>
             </row>
@@ -1198,8 +1197,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Skriv in avhandlingens författare! You must enter the author!</required>
                 </field>
             </row>
@@ -1420,8 +1419,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Skriv in avhandlingens författare! You must enter the author!</required>
                 </field>
             </row>
@@ -1629,8 +1628,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Skriv in avhandlingens författare! You must enter the author!</required>
                 </field>
             </row>
@@ -1851,8 +1850,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Skriv in avhandlingens författare! You must enter the author!</required>
                 </field>
             </row>
@@ -2073,8 +2072,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Skriv in avhandlingens författare! You must enter the author!</required>
                 </field>
             </row>
@@ -2295,8 +2294,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Skriv in avhandlingens författare! You must enter the author!</required>
                 </field>
             </row>
@@ -2508,9 +2507,9 @@
                     <dc-element>contributor</dc-element>
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
-                    <label>Författare / Authors</label>
-                    <input-type>name</input-type>
-                    <hint> </hint>
+                    <label>Författare / Author</label>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required>Författare måste anges!</required>
                 </field>
             </row>
@@ -2612,10 +2611,9 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
-                    <required>Skriv in artikelns författare! You must enter the author(s) of the
-                        article!</required>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
+                    <required>Skriv in artikelns författare! You must enter the author(s) of the article!</required>
                 </field>
             </row>
             <row>
@@ -2889,10 +2887,9 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Author</label>
-                    <input-type>name</input-type>
-                    <hint>* visar att fältet är obligatoriskt / * indicates a mandatory field</hint>
-                    <required>Skriv in artikelns författare! You must enter the author(s) of the
-                        article!</required>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
+                    <required>Skriv in artikelns författare! You must enter the author(s) of the article!</required>
                 </field>
             </row>
             <row>
@@ -3117,9 +3114,8 @@
                     <dc-qualifier>author</dc-qualifier>
                     <repeatable>true</repeatable>
                     <label>Författare / Authors</label>
-                    <input-type>name</input-type>
-                    <hint>Ange namn till författare/upphovsman. / Enter the names of the authors of
-                        this item.</hint>
+                    <input-type>onebox</input-type>
+                    <hint>Ange författarens namn (efternamn, förnamn). / Enter the author's name (Family name, Given names).</hint>
                     <required />
                 </field>
             </row>
@@ -3181,9 +3177,9 @@
                     <dc-element>contributor</dc-element>
                     <dc-qualifier>creator</dc-qualifier>
                     <repeatable>true</repeatable>
-                    <label>Upphovsman / Creator </label>
-                    <input-type>name</input-type>
-                    <hint>Ange verkets upphovsman. / Enter name of creator.</hint>
+                    <label>Upphovsman / Creator</label>
+                    <input-type>onebox</input-type>
+                    <hint>Ange verkets upphovsman (efternamn, förnamn). / Enter name of creator (Family name, Given names).</hint>
                     <required>Du måste ange minst en upphovsman.</required>
                 </field>
             </row>
