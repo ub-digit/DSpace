@@ -17,7 +17,7 @@ Registrerad av: / Submitted by: ${params[2]}
 ${params[3]}
 
 För att handlägga ärendet loggar du in i ${config.get('dspace.name')}: / Log in to ${config.get('dspace.name')} to process the submission:
-  ${params[4]}
+  ${params[4]}?configuration=workflow
 
 Many thanks!
 
