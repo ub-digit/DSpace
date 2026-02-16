@@ -28,6 +28,9 @@
 <schema name="discovery" version="1.5">
 
   <types>
+    <!-- Custom GUB channge, add icu_collation field for correct sorting -->
+    <fieldType name="icu_collation" class="solr.ICUCollationField" locale="sv" strength="primary" caseLevel="false"/>
+
     <fieldType name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
 
     <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true" omitNorms="true"/>
@@ -316,7 +319,7 @@
     <!--Dynamic field used for hit highlighting-->
     <dynamicField name="*_hl" type="text" indexed="true" stored="true" multiValued="true" omitNorms="true"/>
 
-    <dynamicField name="*_sort" type="lowerCaseSort" indexed="true" stored="true" multiValued="false" omitNorms="true"/>
+    <dynamicField name="*_sort" type="icu_collation" indexed="true" stored="false" multiValued="false" omitNorms="true"/>
     <dynamicField name="*_min" type="text" indexed="true" stored="true" multiValued="false" omitNorms="true"/>
     <dynamicField name="*_max" type="text" indexed="true" stored="true" multiValued="false" omitNorms="true"/>
 
