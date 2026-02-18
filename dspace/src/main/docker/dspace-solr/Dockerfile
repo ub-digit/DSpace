@@ -12,32 +12,23 @@
 
 ARG SOLR_VERSION=8.11
 
-FROM docker.io/solr:${SOLR_VERSION}-slim
+FROM docker.io/solr:${SOLR_VERSION}
 
-ENV AUTHORITY_CONFIGSET_PATH=/opt/solr/server/solr/configsets/authority/conf \
-    OAI_CONFIGSET_PATH=/opt/solr/server/solr/configsets/oai/conf \
-    SEARCH_CONFIGSET_PATH=/opt/solr/server/solr/configsets/search/conf \
-    STATISTICS_CONFIGSET_PATH=/opt/solr/server/solr/configsets/statistics/conf \
-    QAEVENT_CONFIGSET_PATH=/opt/solr/server/solr/configsets/qaevent/conf  \
-    SUGGESTION_CONFIGSET_PATH=/opt/solr/server/solr/configsets/suggestion/conf
+ENV CONFIGSET_PATH=/opt/solr/server/solr/configsets
     
 USER root
 
-RUN mkdir -p $AUTHORITY_CONFIGSET_PATH && \
-    mkdir -p $OAI_CONFIGSET_PATH && \
-    mkdir -p $SEARCH_CONFIGSET_PATH && \
-    mkdir -p $STATISTICS_CONFIGSET_PATH && \
-    mkdir -p $QAEVENT_CONFIGSET_PATH && \
-    mkdir -p $SUGGESTION_CONFIGSET_PATH
-
 # NOTE: "solrconfigs" MUST be passed in by docker-compose via "additional_contexts"
 # OR via "docker build --build-context solrconfigs=[path-to-dspace/solr]"
-COPY --from=solrconfigs authority/conf/* $AUTHORITY_CONFIGSET_PATH/
-COPY --from=solrconfigs oai/conf/* $OAI_CONFIGSET_PATH/
-COPY --from=solrconfigs search/conf/* $SEARCH_CONFIGSET_PATH/
-COPY --from=solrconfigs statistics/conf/* $STATISTICS_CONFIGSET_PATH/
-COPY --from=solrconfigs qaevent/conf/* $QAEVENT_CONFIGSET_PATH/
-COPY --from=solrconfigs suggestion/conf/* $SUGGESTION_CONFIGSET_PATH/
+COPY --from=solrconfigs authority $CONFIGSET_PATH/authority
+COPY --from=solrconfigs oai $CONFIGSET_PATH/oai
+COPY --from=solrconfigs search $CONFIGSET_PATH/search
+COPY --from=solrconfigs statistics $CONFIGSET_PATH/statistics
+COPY --from=solrconfigs qaevent $CONFIGSET_PATH/qaevent
+COPY --from=solrconfigs suggestion $CONFIGSET_PATH/suggestion
+
+COPY docker-entrypoint.sh /usr/local/bin/gub-docker-entrypoint.sh
+ENTRYPOINT ["gub-docker-entrypoint.sh"]
 
 RUN chown -R solr:solr /opt/solr/server/solr/configsets
 
