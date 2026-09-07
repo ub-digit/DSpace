@@ -1584,6 +1584,18 @@
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
+                    <dc-element>gup</dc-element>
+                    <dc-qualifier>opponent</dc-qualifier>
+                    <repeatable>false</repeatable>
+                    <label>Disputation: opponent / Public defence: opponent</label>
+                    <input-type>onebox</input-type>
+                    <hint>Ange opponent. / Enter opponent.</hint>
+                    <required />
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>dc</dc-schema>
                     <dc-element>subject</dc-element>
                     <dc-qualifier />
                     <repeatable>true</repeatable>
